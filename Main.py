@@ -40,9 +40,8 @@ path = bfs(grid, start, goal, valid, moves)
 print("BFS Path:", path)
 
 #Run DFS
-path_dfs = dfs(grid, start, goal, moves)
+path_dfs = dfs(grid, start, goal, valid, moves)
 print("DFS Path:", path_dfs)
-
 
 #Run UCS
 path_ucs=ucs(grid,start,goal,valid,moves)
@@ -66,4 +65,5 @@ print("Genetic Algorithm Path:", path_gen)
 
 
  
+
 
