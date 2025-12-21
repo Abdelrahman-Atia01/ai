@@ -81,7 +81,7 @@ Each algorithm prints the path it finds from the start position to the goal (if 
 ## Notes
 
 * A* Search provides the best performance in terms of speed and optimality.
-* DFS and Hill Climbing may fail to find optimal solutions.
+* DFS may fail to find optimal solutions.
 * Genetic Algorithm is used as an optimization approach and does not guarantee optimality.
 
 ---
